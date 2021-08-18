@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Submit Resume</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+			integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+	</head>
+
+	<body>
+		<form action="/success.html">
+			<h1>Submit Resume</h1>
+			<div class="icon">
+				<i class="fas fa-briefcase"></i>
+			</div>
+			<div class="formcontainer">
+				<div class="container">
+					<label for="uname"><strong>Username</strong></label>
+					<input type="text" placeholder="Enter Username" name="uname" required>
+					<label for="mail"><strong>E-mail</strong></label>
+					<input type="text" placeholder="Enter E-mail" name="mail" required>
+					<label for="psw"><strong>Password</strong></label>
+					<input type="password" placeholder="Enter Password" name="psw" required>
+
+					<label for="file"><strong>Upload resume</strong></label>
+					<input type="file" name="resume">
+
+					<p>Select track</p>
+					<input type="radio" name="track" value="Frontend development" checked>
+					<label for="Frontend development"><strong>Frontend development</strong></label>
+
+					<input type="radio" name="track" value="Backend development">
+					<label for="Backend development"><strong>Backend development</strong></label>
+
+					<input type="radio" name="track" value="Mobile development">
+					<label for="Mobile development"><strong>Mobile development</strong></label>
+
+					<input type="radio" name="track" value="UI/UX">
+					<label for="UI/UX"><strong>UI/UX</strong></label>
+
+				</div>
+				<button type="submit"><strong>SIGN UP</strong></button>
+			</div>
+		</form>
+	</body>
+
+</html>
